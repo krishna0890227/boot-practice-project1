@@ -70,7 +70,9 @@
             to innovate and excel.
           </p>
           <!-- mb-5 gives extra margin spacing under lead text -->
-          <p class="lead mb-5">Let's create something amazing together!</p>
+          <p class="lead mb-5">
+            <strong>Let's create something amazing together! </strong>
+          </p>
         </div>
       </section>
     </header>
@@ -123,7 +125,7 @@
           <div class="col-12 text-center my-4">
             <h2 class="display-5">Portfolio</h2>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 my-4">
             <div class="card">
               <img
                 src="assets/images/wags-and-walks.webp"
@@ -142,7 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 my-4">
             <div class="card">
               <img
                 src="assets/images/we-wellness.webp"
@@ -155,14 +157,13 @@
                   A comprehensive platform offering a wide range of wellness
                   services and high-end products. From yoga classes to
                   nutritional guidance, users can find everything they need to
-                  nurture their body, mind, and spirit. 
-                 </p> 
-                 <a href="#" class="btn btn-primary">Visit Site</a>
-                
+                  nurture their body, mind, and spirit.
+                </p>
+                <a href="#" class="btn btn-primary">Visit Site</a>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 my-4">
             <div class="card">
               <img
                 src="assets/images/Math-wiz.webp"
@@ -175,13 +176,13 @@
                   An interactive website dedicated to helping kids master
                   mathematics through games and challenges. Designed with young
                   learners in mind, this platform turns complex problems into
-                  engaging activities.<br>
+                  engaging activities.<br />
                 </p>
                 <a href="#" class="btn btn-primary">Visit Site</a>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 my-4">
             <div class="card">
               <img
                 src="assets/images/bmi-calculator.webp"
@@ -194,7 +195,7 @@
                   Promoting a healthier lifestyle with an easy-to-use BMI
                   Calculator. Designed to provide quick health assessments, this
                   tool helps users understand and manage their body mass index
-                  with just a few clicks.#<br>
+                  with just a few clicks.#<br />
                 </p>
                 <a href="#" class="btn btn-primary">Visit Site</a>
               </div>
@@ -204,15 +205,67 @@
       </section>
     </main>
     <footer id="contact" class="container">
+      <div class="row justify-content-center">
         <div class="row">
-            <div class="col-12 text-center my-4">
+          <div class="col-12 text-center my-4">
             <h2 class="display-5">Contact</h2>
-            <p class="mt-4">Got questions or ideas? 
-                I'd love to hear from you! Whether you're interested in collaboration, have inquiries about my projects,
-                 or wish to request a copy of my CV, please don't hesitate to get in touch. 
-                 I'm always open to discussing new opportunities and how we can work together to create something amazing!</p>
+            <p class="mt-4">
+              Got questions or ideas? I'd love to hear from you! Whether you're
+              interested in collaboration, have inquiries about my projects, or
+              wish to request a copy of my CV, please don't hesitate to get in
+              touch. I'm always open to discussing new opportunities and how we
+              can work together to create something amazing!
+            </p>
+          </div>
         </div>
+        <div class="col-12 col-md-10 col-lg-8 mb-4">
+          <form class="row g-3">
+            <div class="col-6">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+              />
+            </div>
+            <div class="col-6">
+              <input
+                type="text"
+                id="lastname"
+                class="form-control"
+                placeholder="Last name"
+                aria-label="Last name"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" />
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" />
+            </div>
+            <div class="col-md-6">
+              <label for="position" class="form-label">position</label>
+              <input type="text" id="position" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Your Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </form>
         </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JS script goes at the bottom of the body element -->
